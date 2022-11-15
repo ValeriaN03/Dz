@@ -1,0 +1,264 @@
+Задание 1:
+
+public class Main
+{
+  public static void main(String[] args) {
+      int a = 56776;
+      int n1 = a/10000;
+      int n2 = (a/1000)%10;
+      int n3 = (a/100)%10;
+      int n4 = (a/10)%10;
+      int n5 = a % 10;
+      
+      if (n1 == n5 && n2 == n4) {
+         System.out.println("True");
+      }
+      else {
+           System.out.println("False");
+      }
+  }
+}
+
+
+
+Задание 2:
+
+public class Main
+{
+  public static void main(String[] args) {
+      int a = 14345;
+      int n1 = a/10000;
+      int n2 = (a/1000)%10;
+      int n3 = (a/100)%10;
+      int n4 = (a/10)%10;
+      int n5 = a % 10;
+      
+      if (n1 == n2  n1 == n3  n1 == n4  n1 == n5  n2 == n3  n2 == n4  n2 == n5  n3 == n4  n3 == n5  n4 == n5) {
+              System.out.println("Есть одинаковые цифры");
+      }
+      else {
+           System.out.println("Нет одинаковых цифр");
+      }
+  }
+}
+
+
+
+Задание 3:
+
+public class Main
+{
+  public static void main(String[] args) {
+      int a = 3303;
+      int n1 = a/1000;
+      int n2 = (a/100)%10;
+      int n3 = (a/10)%10;
+      int n4 = a%10;
+    
+      
+      if (n1 == n2 && n2 == n3  n1 == n3 && n3 == n4|| n1 == n4 && n4 == n2  n2 == n3 && n3 == n4) {
+            
+              System.out.println("Есть 3 одинаковые цифры");
+      }
+      else {
+           System.out.println("Нет 3 одинаковых цифр");
+      }
+  }
+}
+
+
+
+Задание 4:
+
+public class Main
+{
+  public static void main(String[] args) {
+     int a = 1231;
+      int n1 = a/1000;
+      int n2 = (a/100)%10;
+      int n3 = (a/10)%10;
+      int n4 = a%10;
+    
+      
+      if (n1 == n2  n1 == n3  n1 == n4  n2 == n3  n2 == n4  n3 == n4) {
+              System.out.println("False");
+      }
+      else {
+           System.out.println("True");
+      }
+  }
+}
+
+
+
+Задание 5:
+
+public class Main
+{
+  public static void main(String[] args) {
+     int a = 1113;
+      int n1 = a/1000;
+      int n2 = (a/100)%10;
+      int n3 = (a/10)%10;
+      int n4 = a%10;
+   
+     
+      if (n1 == 3  n2 == 3  n3 == 3  n4 == 3) {
+              System.out.println("True");
+      }
+      else {
+           System.out.println("False");
+      }
+  }
+}
+
+
+
+Задание 6:
+
+public class Main
+{
+  public static void main(String[] args) {
+     int a = 3337;
+      int n1 = a/1000;
+      int n2 = (a/100)%10;
+      int n3 = (a/10)%10;
+      int n4 = a%10;
+   
+     
+      if (n1 == 3 && n2 == 7  n2 == 3 && n3 == 7  n3 == 3 && n4 ==7) {
+              System.out.println("True");
+      }
+      else {
+           System.out.println("False");
+      }
+  }
+}
+
+
+
+Задание 7:
+
+public class Main
+{
+  public static void main(String[] args) {
+      int a = 407;
+      int n1 = a/100;
+      int n2 = (a/10)%10;
+      int n3 = a%10;
+  
+      int m1 = n1 *n1 *n1;
+      int m2 = n2 *n2 *n2;
+      int m3 = n3 *n3 *n3;
+  
+     
+      if (a == m1 + m2 + m3) {
+              System.out.println("True");
+      }
+      else {
+           System.out.println("False");
+      }
+  }
+}
+
+
+
+
+Задание 8:
+
+public class Main
+{
+  public static void main(String[] args) {
+      int a = 6390;
+      int n1 = a/1000;
+      int n2 = (a/100)%10;
+      int n3 = (a/10)%10;
+      int n4 = a%10;
+   
+      int m = n1 + n2 + n3 + n4;
+     
+     
+      if (m%2 == 0 && m%3 == 0) {
+              System.out.println("True");
+      }
+      else {
+           System.out.println("False");
+      }
+  }
+}
+
+
+
+Задание 9:
+
+public class Main
+{
+  public static void main(String[] args) {
+      int a = 2224;
+      int n1 = a/1000;
+      int n2 = (a/100)%10;
+      int n3 = (a/10)%10;
+      int n4 = a%10;
+   
+     if (n1 == 0  n2 == 0  n3 == 0  n4 == 0) {
+         System.out.println("False");
+     }
+     
+      else if (a%n1 == 0 && a%n2 == 0 && a%n3 == 0 && a%n4 == 0) {
+              System.out.println("True");
+      }
+      else {
+           System.out.println("False");
+      }
+  }
+}
+
+
+
+
+Задание 10:
+public class Main
+{
+  public static void main (String [] argv) {
+        int a = 727;
+        int n1 = a/100;
+        int n2 = (a/10)%10;
+        int n3 = a%10;
+  
+      if (n1 <= n2 && n1 <= n3 ) {
+            a = n2 * 10 + n3;
+        }
+        
+        else if (n2 < n1 && n2 <= n3) {
+            a = n1 * 10 + n3;
+        }
+        
+      else if (n3 < n1 && n3 < n2) {
+            a = n1 * 10 + n2;
+        }
+              
+        System.out.println (a);
+        
+              
+  }
+}
+
+
+
+
+
+Задание 12:
+
+public class Main
+{
+  public static void main (String [] argv) {
+        int a = 43115;
+      int b = 555;
+      
+      int c = a;
+      a = b;
+      b = c;
+               
+        System.out.println (a + "," + b);
+  }
+}
